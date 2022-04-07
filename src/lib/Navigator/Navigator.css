@@ -1,0 +1,152 @@
+.navigator {
+	min-width: 300px ; 
+	height: 100%;
+	padding-left: 5px;
+	padding-right: 5px ;
+}
+
+/*----------------USER_PROFILE--------------------*/
+
+.navigator .user-profile {
+	margin-left: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.navigator .user-profile img {
+	width: 48px;
+	height: 48px;
+	margin: 8px;
+}
+
+.navigator .user-profile .user-info {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 14px;
+}
+
+.navigator .user-profile .user-info .user-name {
+	font-weight: 600;
+}
+
+.navigator .user-profile .user-info .user-email {
+	color: #808080;
+}
+
+/*----------------SEARCH_BAR--------------------*/
+
+.navigator .search-bar {
+	margin-top: 10px;
+	width: 100%;
+	height: 40px;
+	font-size: 14px;
+	position: relative;
+  display: inline-block;
+}
+
+.navigator .search-bar input {
+	width: 90%;
+	height: 32px;
+	padding: 10px;
+	font-size: 16px;
+	border: 0;
+  border-radius: 5px;
+	background-color: white;
+	box-shadow: 0px 0px 3px gray, 0px 1px #800000;
+}
+
+.navigator .search-bar input:hover {
+	background-color: #f0f0f0;
+}
+
+.navigator .search-bar input:focus {
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 2px #800000;
+	background-color: white;
+}
+
+.navigator .search-bar .search-symbol {
+	position: absolute;
+	right: 5%;
+	top: 0%;
+	height: 24px;
+	width: 32px;
+	font-size: 16px;
+	background-color: inherit;
+	border: none;
+  border-radius: 2px;
+	margin: 4px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.navigator .search-bar .search-symbol:hover {
+	border-radius: 5px;
+	background-color: #f8f8f8;
+}
+
+.navigator .search-bar .search-symbol img {
+	height: 16px;
+	width: 16px;
+	transform: scale(-1, 1);
+}
+
+/*----------------TODO_GROUPS--------------------*/
+.navigator .to-do-groups {
+	display: flex;
+	flex-direction: column;
+}
+
+.navigator .to-do-groups .to-do-group {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 5px;
+	height: 40px;
+	border-radius: 2px;
+}
+
+.navigator .to-do-groups .to-do-group:hover, .navigator .to-do-groups .to-do-group.selected{
+	background-color: #e8e8e8;
+}
+
+.navigator .to-do-groups .to-do-group .to-do-group-marker {
+	width: 3px;
+	height: 15px;
+	border-radius: 40%;
+}
+
+.navigator .to-do-groups .to-do-group.selected .to-do-group-marker {
+	background-color: #0000d0;
+}
+
+.navigator .to-do-groups .to-do-group .to-do-group-symbol {
+	margin-left: 10px;
+	width: 32px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.navigator .to-do-groups .to-do-group .to-do-group-symbol img {
+	height: 16px;
+	width: 16px;
+}
+
+.navigator .to-do-groups .to-do-group .to-do-group-title {
+	flex-grow: 1;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.navigator .to-do-groups .to-do-group .to-do-group-number-of-undone-to-do {
+	text-align: center;
+	margin-right: 10px;
+}

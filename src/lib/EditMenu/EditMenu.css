@@ -1,0 +1,53 @@
+.edit-menu {
+  height: 100%;
+  width: 300px;
+  background-color: #f0f0f0;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.edit-menu .edit-menu-box-margin-top-40 {
+  margin-top: 40px !important;
+}
+
+.edit-menu .edit-menu-box {
+	height: 40px;
+  width: 90%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-radius: 5px;
+	background-color: #f8f8f8;
+  margin-top: 5px;
+	box-shadow: 0px 0px 2px gray;
+}
+
+.edit-menu .edit-menu-box input {
+	flex-grow: 1;
+	height: 38px;
+	outline: none;
+	border: none;
+	background-color:inherit;
+	border-radius: 5px;
+  font-size: 16px;
+}
+
+.edit-menu .edit-menu-box .edit-menu-box-marker {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.edit-menu .edit-menu-box .edit-menu-box-marker img {
+	height: 16px;
+	width: 16px;
+}
+
+.edit-menu .edit-menu-box .edit-menu-box-done-marker img:hover {
+	content: url('../Images/tick.png');
+}

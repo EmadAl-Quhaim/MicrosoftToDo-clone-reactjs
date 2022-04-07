@@ -1,0 +1,11 @@
+profile.png     https://www.flaticon.com/free-icon/profile_3135715?term=profile&page=1&position=2&page=1&position=2&related_id=3135715&origin=tag#
+search.png      https://www.flaticon.com/free-icon/search_482631?term=search&page=1&position=8&page=1&position=8&related_id=482631&origin=search#
+sun.png         https://www.flaticon.com/free-icon/sun_606795?term=sun&page=1&position=2&page=1&position=2&related_id=606795&origin=search#
+star.png        https://www.flaticon.com/free-icon/star_1828970?related_id=1828970&origin=search#
+star_filled.png https://www.flaticon.com/free-icon/star_1828884?related_id=1828884&origin=search#
+to-do-list.png  https://www.flaticon.com/premium-icon/to-do-list_3861538?term=todo&page=1&position=61&page=1&position=61&related_id=3861538&origin=search#
+dry-clean.png   https://www.flaticon.com/free-icon/dry-clean_481078?term=circle&page=1&position=1&page=1&position=1&related_id=481078&origin=search#
+plus.png        https://www.flaticon.com/free-icon/plus_1828925?term=plus&page=1&position=2&page=1&position=2&related_id=1828925&origin=search#
+tick.png        https://www.flaticon.com/free-icon/tick_709605?term=circle%20with%20arrow&page=1&position=7&page=1&position=7&related_id=709605&origin=search#
+check.png       https://www.flaticon.com/premium-icon/check_1008958?term=circle%20tick&page=1&position=6&page=1&position=6&related_id=1008958&origin=search#
+delete.png      https://www.flaticon.com/free-icon/delete_1214428?term=delete%20button&page=1&position=2&page=1&position=2&related_id=1214428&origin=search#

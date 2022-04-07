@@ -1,0 +1,153 @@
+.to-do-list {
+	position: relative;
+	flex-grow: 1;
+	height: 100%;
+	border-top-left-radius: 10px;
+	background-color: rgb(108, 155, 0);
+	display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/*---------------HEADER----------------*/
+.to-do-list .to-do-list-header {
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: white;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.to-do-list .to-do-list-header img {
+	filter: invert(100%);
+	-webkit-filter: invert(100%);
+	height: 24px;
+	width: 24px;
+	margin: 5px;
+}
+
+.to-do-list .to-do-list-header .to-do-list-header-title {
+	font-size: 30px;
+	font-weight: 600;
+	margin-left: 5px;
+}
+
+.to-do-list .to-do-list-header-my-day {
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: white;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.to-do-list .to-do-list-header-my-day .to-do-list-header-my-day-info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 20px;
+}
+
+.to-do-list .to-do-list-header-my-day .to-do-list-header-my-day-info .to-do-list-header-my-day-title {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.to-do-list .to-do-list-header-my-day .to-do-list-header-my-day-info .to-do-list-header-my-day-date {
+	font-size: 14px;
+	font-weight: 350;
+	margin-top: 5px;
+	margin-left: 1px;
+}
+
+/*--------------INPUT FIELD----------------*/
+.to-do-list .to-do-list-input-field {
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	left: 40px;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-radius: 5px;
+	background-color: #f0f0f0;
+	box-shadow: 0px 0px 3px gray;
+}
+
+.to-do-list .to-do-list-input-field input {
+	flex-grow: 1;
+	height: 38px;
+	outline: none;
+	border: none;
+	background-color:inherit;
+	border-radius: 5px;
+}
+.to-do-list .to-do-list-input-field:hover,
+.to-do-list .to-do-list-input-field input:focus, 
+.to-do-list .to-do-list-input-field input:hover {
+	background-color: white !important; 
+}
+
+.to-do-list .to-do-list-input-field .to-do-list-input-field-marker {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.to-do-list .to-do-list-input-field .to-do-list-input-field-marker img {
+	height: 16px;
+	width: 16px;
+}
+
+
+/*--------------SHOW TODO LIST----------------*/
+.to-do-list .show-to-do-list {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 40px;
+	margin-right: 40px;
+	height: calc(100% - 190px);
+  overflow-y: auto;
+}
+
+.to-do-list .show-to-do-list .to-do-element {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	min-height: 40px;
+	width: 100%;
+	margin-top: 2px;
+	border-radius: 5px;
+	background-color: #f0f0f0;
+}
+.to-do-list .show-to-do-list .to-do-element .to-do-element-title {
+	flex-grow: 1;
+	text-align: left;
+}
+
+.to-do-list .show-to-do-list .to-do-element .to-do-element-marker {
+	height: 40px;
+	width: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.to-do-list .show-to-do-list .to-do-element .to-do-element-marker img {
+	height: 16px;
+	width: 16px;
+}
+
+.to-do-list .show-to-do-list .to-do-element .to-do-element-done-marker img:hover {
+	content: url('../Images/tick.png');
+}
