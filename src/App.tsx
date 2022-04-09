@@ -55,6 +55,8 @@ const reducer : Reducer<ToDo[], ReducerAction> = (state: ToDo[], action: Reducer
 			return state.map(e => e.id === action.payload.id ? {...e, showInMyDay: !e.showInMyDay} : e);
 		case ReducerActionTypes.EDIT_TITLE:
 			return state.map(e => e.id === action.payload.id ? {...e, title: action.payload.title} : e);
+		case ReducerActionTypes.DELETE:
+			return state.filter(e => e.id !== action.payload.id);
 		default:
 			return state;
 	}

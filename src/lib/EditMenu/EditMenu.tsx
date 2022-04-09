@@ -54,7 +54,7 @@ function EditMenu(props : {
         </div>
         Add to my-day
       </div>
-      <div className='edit-menu-box' onClick={() => props.dispatch({type: ReducerActionTypes.DELETE, payload: props.editMenuInfo.todo})}> 
+      <div className='edit-menu-box edit-menu-box-delete' onClick={() => props.dispatch({type: ReducerActionTypes.DELETE, payload: props.editMenuInfo.todo})}> 
         <div className='edit-menu-box-marker'>
           <img src={DeleteImage} alt="" />
         </div>

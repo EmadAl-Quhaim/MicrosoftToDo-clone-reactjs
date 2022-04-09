@@ -17,7 +17,7 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	border-radius: 5px;
+	border-radius: 2px;
 	background-color: #f8f8f8;
   margin-top: 5px;
 	box-shadow: 0px 0px 2px gray;
@@ -50,4 +50,8 @@
 
 .edit-menu .edit-menu-box .edit-menu-box-done-marker img:hover {
 	content: url('../Images/tick.png');
+}
+
+.edit-menu .edit-menu-box-delete:hover {
+	background-color: #ff8080;
 }
